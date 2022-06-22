@@ -11,9 +11,10 @@ function Nube() {
     onValue(wordsRef, (snapshot) => {
       const data = snapshot.val();
       console.log("data", data);
-      const newData = Object.entries(data).map(([k, v]) => ({ text: k, value: v * 1000 }))
+      if (!data) { setWords([]); return }
+      const newData = Object.entries(data).map(([k, v]) => ({ text: k, value: v * 3000 }))
       console.log('leer: ', newData)
-      setWords({ ...newData })
+      setWords([...newData])
     });
   }, []);
 
