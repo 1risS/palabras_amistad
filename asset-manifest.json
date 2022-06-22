@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/palabras_amistad/static/css/main.4e3e34c3.css",
+    "main.js": "/palabras_amistad/static/js/main.27fdc2e3.js",
+    "index.html": "/palabras_amistad/index.html",
+    "main.4e3e34c3.css.map": "/palabras_amistad/static/css/main.4e3e34c3.css.map",
+    "main.27fdc2e3.js.map": "/palabras_amistad/static/js/main.27fdc2e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e3e34c3.css",
+    "static/js/main.27fdc2e3.js"
+  ]
+}
