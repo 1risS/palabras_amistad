@@ -4,7 +4,7 @@ import './index.css';
 import Nube from './nubePalabras'
 import Home from './home';
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -12,12 +12,12 @@ import {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="nube" element={<Nube />} />
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 
